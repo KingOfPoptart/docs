@@ -36,6 +36,7 @@ Private github repo.  Still needs to be created (DemandCube is currently maxed o
     - Integration test jobs
 3. Clear documentation for how to get set up with the new repo
 4. Change Dockerfile so that the installation and configuration is handled by ansible
+5. Downloading any files should be done intelligently during deployment.  I.E. Download them once, and every time after that just reuse what's already been downloaded for something like recreating docker images
 
 
 ###New Work
